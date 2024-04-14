@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#header{
+    text-align: center;
+    background-color: aqua;
+    padding: 30px;
+}
+#sideblock{
+    width:200px;
+    height: 250px;
+    background-color: bisque;
+
+}
+.sideheading{
+    background-color: darkgray;
+    
+}
+.sidealign{
+    text-align: right;
+}
+.contentcontainer,.sideheading{
+    display: inline-block;
+}
+.content{
+
+}

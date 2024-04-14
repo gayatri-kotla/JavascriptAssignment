@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="resume.css" />
+  </head>
+  <body>
+    <h2>Applicant Details</h2>
+    <form onsubmit="handleSubmit(event)">
+      <label for="jobFilterInput">Filter by Job:</label>
+      <input type="text" id="jobFilterInput" placeholder="search" />
+      <input type="submit" value="search" />
+    </form>
+    <button id="prevButton" onclick="handlePrevClick()">Previous</button>
+    <button id="nextButton" onclick="handleNextClick()">Next</button>
+    <div id="resumeContainer"></div>
+
+    <script src="resume.js"></script>
+  </body>
+</html>
