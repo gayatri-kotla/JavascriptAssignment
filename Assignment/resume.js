@@ -37,8 +37,6 @@ function fillResumeContainer(data) {
 <h3>Applied For: ${data.basics.AppliedFor}</h3>
 </div>
 
-
-
 <div class="contentcontainer">
 <h4 class="contentheading">Work Experience in previous company</h4>
 <div class="content">
@@ -47,12 +45,6 @@ function fillResumeContainer(data) {
 </div>
 
 </div>
-
-
-
-
-
-
 
 `;
   divCon.innerHTML = content;
